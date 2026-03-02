@@ -2,24 +2,49 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Spline Site</title>
+<title>Spline + Presentation</title>
+
 <style>
 html, body {
   margin: 0;
   height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
 }
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  width: 50%;
+  height: 100%;
+}
+
 iframe {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   border: none;
 }
 </style>
 </head>
+
 <body>
-  
-<iframe src='https://my.spline.design/untitled-ENRm4rJjyiMXWeyepGKJ2c7k/' frameborder='0' width='100%' height='100%'></iframe>
-  
-</iframe>
+
+<div class="container">
+
+  <!-- LEFT SIDE: Spline -->
+  <div class="left">
+    <iframe src="https://my.spline.design/untitled-ENRm4rJjyiMXWeyepGKJ2c7k/"></iframe>
+  </div>
+
+  <!-- RIGHT SIDE: Canva -->
+  <div class="right">
+  <iframe src="omy.pdf"></iframe>
+  </div>
+
+</div>
 
 </body>
 </html>
